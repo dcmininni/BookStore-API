@@ -4,5 +4,44 @@
         <name>BookStore-API</name>
     </assembly>
     <members>
+        <member name="T:BookStore_API.Controllers.AuthorsController">
+            <summary>
+            Endpoint used to interact with the authors in the book store's database
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthors">
+            <summary>
+            Get all authors
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthor(System.Int32)">
+            <summary>
+            Get an author by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.CreateAuthor(BookStore_API.DTOs.AuthorCreateDTO)">
+            <summary>
+            Creates an author
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.UpdateAuthor(System.Int32,BookStore_API.DTOs.AuthorUpdateDTO)">
+            <summary>
+            Updates an author
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.RemoveAuthor(System.Int32)">
+            <summary>
+            Removes an author from the database
+            </summary>
+            <param name="authorId"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
